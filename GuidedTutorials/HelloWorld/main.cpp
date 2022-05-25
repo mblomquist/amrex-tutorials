@@ -9,5 +9,7 @@ int main(int argc, char* argv[])
         amrex::Print() << "Hello world from AMReX version " << amrex::Version() << "\n";
     }
     amrex::Finalize();
+
+    amrex::Print() << "Hello again." << "\n";
 }
 
